@@ -1,0 +1,114 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+#include <vector>
+
+//Screen dimension constants
+// player's screen
+const int SCREEN_WIDTH = 1024, SCREEN_HEIGHT = 768;
+
+const int JOYSTICK_DEAD_ZONE = 10000;
+
+//Tile constants
+const int TILE_WIDTH = 64;
+const int TILE_HEIGHT = 64;
+const int TOTAL_TILES = 176;
+const int TOTAL_HOME_TILES = 208;
+const int TOTAL_TILE_SPRITES = 40;
+const int TOTAL_ITEMS = 42;
+
+const int PLAYER_HEIGHT = 40;
+const int PLAYER_WIDTH = 40;
+
+const int TILE_FLOOR = 0;
+const int TILE_TABLE = 1;
+const int TILE_YELLOW_GEN = 2;
+const int TILE_BOTTLER = 3;
+const int TILE_CONVEYER = 4;
+const int TILE_NO_SHOT = 5;
+const int TILE_BROKEN_SHOT_ONE = 6;
+const int TILE_BROKEN_SHOT_TWO = 7;
+const int TILE_BROKEN_SHOT_THREE = 8;
+const int TILE_BROKEN_SHOT_FOUR = 9;
+const int TILE_BIOHAZRD = 10;
+const int TILE_SHOT_ONE = 11;
+const int TILE_SHOT_TWO  = 12;
+const int TILE_SHOT_THREE = 13;
+const int TILE_SHOT_FOUR = 14;
+const int TILE_RED_GEN = 15;
+const int TILE_BLUE_GEN = 16;
+const int TILE_TRASH_CAN = 17;
+const int TILE_PILL_MAKER = 18;
+const int TILE_CAPSULE_MAKER = 19;
+const int TILE_SINK = 20;
+const int TILE_CLOSED_PILL_BOTTLE_ONE = 21;
+const int TILE_CLOSED_PILL_BOTTLE_TWO = 22;
+const int TILE_CLOSED_PILL_BOTTLE_THREE = 23;
+const int TILE_CLOSED_PILL_BOTTLE_FOUR = 24;
+const int TILE_OPENED_PILL_BOTTLE_ONE = 26;
+const int TILE_OPENED_PILL_BOTTLE_TWO = 27;
+const int TILE_OPENED_PILL_BOTTLE_THREE = 28;
+const int TILE_OPENED_PILL_BOTTLE_FOUR = 29;
+const int TILE_CLOSED_CAPSULE_BOTTLE_ONE = 31;
+const int TILE_CLOSED_CAPSULE_BOTTLE_TWO = 32;
+const int TILE_CLOSED_CAPSULE_BOTTLE_THREE = 33;
+const int TILE_CLOSED_CAPSULE_BOTTLE_FOUR = 34;
+const int TILE_OPENED_CAPSULE_BOTTLE_ONE = 36;
+const int TILE_OPENED_CAPSULE_BOTTLE_TWO = 37;
+const int TILE_OPENED_CAPSULE_BOTTLE_THREE = 38;
+const int TILE_OPENED_CAPSULE_BOTTLE_FOUR = 39;
+
+const int NO_ITEM = 0;
+const int ITEM_NO_SHOT = 1;
+const int ITEM_BROKEN_SHOT = 2;
+const int ITEM_YELLOW_BUCKET = 3;
+const int ITEM_YELLOW_BOTTLE = 4;
+const int ITEM_YELLOW_SHOT = 5;
+const int ITEM_RED_BUCKET = 6;
+const int ITEM_RED_BOTTLE = 7;
+const int ITEM_RED_SHOT = 8;
+const int ITEM_BLUE_BUCKET = 9;
+const int ITEM_BLUE_BOTTLE = 10;
+const int ITEM_BLUE_SHOT = 11;
+const int ITEM_ORANGE_SHOT = 12;
+const int ITEM_GREEN_SHOT = 13;
+const int ITEM_PURPLE_SHOT = 14;
+
+const int ITEM_OPENED_PILL_BOTTLE = 16;
+const int ITEM_CLOSED_PILL_BOTTLE = 17;
+const int ITEM_YELLOW_PILLS = 18;
+const int ITEM_YELLOW_PILL_BOTTLE = 19;
+const int ITEM_ORANGE_PILL_BOTTLE = 20;
+const int ITEM_RED_PILLS = 21;
+const int ITEM_RED_PILL_BOTTLE = 22;
+const int ITEM_PURPLE_PILL_BOTTLE = 23;
+const int ITEM_BLUE_PILLS = 24;
+const int ITEM_BLUE_PILL_BOTTLE = 25;
+const int ITEM_GREEN_PILL_BOTTLE = 26;
+
+const int ITEM_GRAY_CAPSULE_TRAY = 27;
+const int ITEM_OPENED_CAPSULE_BOTTLE = 28;
+const int ITEM_CLOSED_CAPSULE_BOTTLE = 29;
+const int ITEM_YELLOW_CAPSULE_TRAY = 30;
+const int ITEM_RED_CAPSULE_TRAY = 31;
+const int ITEM_BLUE_CAPSULE_TRAY = 32;
+const int ITEM_ORANGE_CAPSULE_TRAY = 33;
+const int ITEM_GREEN_CAPSULE_TRAY = 34;
+const int ITEM_PURPLE_CAPSULE_TRAY = 35;
+const int ITEM_YELLOW_CAPSULE_BOTTLE = 36;
+const int ITEM_RED_CAPSULE_BOTTLE = 37;
+const int ITEM_BLUE_CAPSULE_BOTTLE = 38;
+const int ITEM_ORANGE_CAPSULE_BOTTLE = 39;
+const int ITEM_GREEN_CAPSULE_BOTTLE = 40;
+const int ITEM_PURPLE_CAPSULE_BOTTLE = 41;
+
+const int SCREEN_TITLE = 0;
+const int SCREEN_LEVELS = 1;
+const int SCREEN_LEVEL_1_INSTRUCTIONS = 2;
+const int SCREEN_LEVEL_1 = 3;
+const int SCREEN_LEVEL_2_INSTRUCTIONS = 4;
+const int SCREEN_LEVEL_2 = 5;
+const int SCREEN_LEVEL_3_INSTRUCTIONS = 6;
+const int SCREEN_LEVEL_3 = 7;
+
+#endif 

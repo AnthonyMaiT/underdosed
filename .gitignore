@@ -1,0 +1,16 @@
+globals.o
+main.o
+order.o
+player.o
+texture.o
+tile.o
+timer.o
+utils.o
+/.vscode
+/include/SDL2
+/lib
+SDL2.dll
+SDL2_image.dll
+SDL2_mixer.dll
+SDL2_ttf.dll
+Underdosed.exe
